@@ -1,0 +1,18 @@
+cat > tailwind.config.js << 'EOF'
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'viakdata-navy': '#00204E',
+        'viakdata-orange': '#FF5F00',
+      },
+    },
+  },
+  plugins: [],
+}
+EOF

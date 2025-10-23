@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  viakdata-app:
+    build: .
+    container_name: viakdata-react
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+    tty: true
