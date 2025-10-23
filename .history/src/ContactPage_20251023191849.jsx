@@ -351,7 +351,7 @@ const ContactPage = () => {
             <div>
               <div className="mb-6">
                 <img 
-                  src="/Viakdata.jpg" 
+                  src="public/Viakdata.jpg" 
                   alt="VIAKDATA" 
                   className="h-[42px] w-auto block"
                   style={{ filter: 'drop-shadow(0 8px 24px rgba(0,32,78,0.25))' }}
